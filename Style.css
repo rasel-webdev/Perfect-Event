@@ -1,0 +1,36 @@
+body{
+    background-color: #e5f5a4;
+    display: flex;
+    display: block;
+}
+.wellcome{
+font-size: large;
+color: rgb(1, 1, 10);
+padding: 5px;
+text-align: center;
+background-color: bisque;
+font-style: italic;
+
+}
+
+.nav{
+    background-color: blue;
+    color: beige;
+    padding: 10px;
+
+}
+.list{
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.list li {
+    cursor: pointer;
+}
+.list li ul {
+    display: none;
+}
+.list li:hover ul {
+    display: block; 
+}
